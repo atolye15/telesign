@@ -1,0 +1,24 @@
+{
+    "name": "atolye15/telesign",
+    "description": "PHP composer package for TeleSign REST API",
+    "keywords": ["telesign", "sms verification", "voice verification"],
+    "homepage": "https://github.com/atolye15/telesign",
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Muhittin Özer",
+            "email": "muhittin@atolye15.com",
+            "homepage": "http://www.atolye15.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atolye15\\": "src"
+        }
+    }
+}
